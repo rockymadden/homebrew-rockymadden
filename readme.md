@@ -1,9 +1,9 @@
 # homebrew-rockymadden <sub><sup>| Personal brews</sup></sub>
-[![semver](http://img.shields.io/badge/semver-v0.0.0-blue.svg)](http://semver.org/)
+[![version](http://img.shields.io/badge/version-n/a-blue.svg)](#)
+[![versioning](http://img.shields.io/badge/versioning-continous-blue.svg)](#)
+[![branching](http://img.shields.io/badge/branching-github%20flow-blue.svg)](https://guides.github.com/introduction/flow/)
 [![license](http://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 [![status](http://img.shields.io/badge/status-working-brightgreen.svg)](#)
-
-A small collection of Homebrew formulas which do not exist in core, for one reason or another.
 
 ## Installation
 ```bash
