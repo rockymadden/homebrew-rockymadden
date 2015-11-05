@@ -5,8 +5,6 @@
 [![license](http://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 [![status](http://img.shields.io/badge/status-working-brightgreen.svg)](#)
 
-A small collection of personal Homebrew formulas.
-
 ## Installation
 ```bash
 brew tap rockymadden/rockymadden
