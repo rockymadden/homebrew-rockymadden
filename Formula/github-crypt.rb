@@ -1,7 +1,7 @@
 class GithubCrypt < Formula
   homepage "https://github.com/rockymadden/github-crypt"
-  url "https://github.com/rockymadden/github-crypt/archive/v0.2.1.tar.gz"
-  sha256 "ceccd9644bf0cb38ce5ddd508b503e1542f04f07e45b39383d7f9024a9ed0513"
+  url "https://github.com/rockymadden/github-crypt/archive/v0.3.0.tar.gz"
+  sha256 "cbabdd3a955732b4376f6aef9c0467e1fcb060da6a5211a926685400567a109f"
 
   def install
     bin.install "src/github-crypt"
