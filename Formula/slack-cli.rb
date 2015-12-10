@@ -1,7 +1,7 @@
 class SlackCli < Formula
   homepage "https://github.com/rockymadden/slack-cli"
-  url "https://github.com/rockymadden/slack-cli/archive/v0.3.0.tar.gz"
-  sha256 "bc58a7c7081cebf8a4faf1a58f2bdaf660d6ec037f33e45c9454c9606d4bd93b"
+  url "https://github.com/rockymadden/slack-cli/archive/v0.3.1.tar.gz"
+  sha256 "6e3659ad5d184d6296b1c6e0a28a1eac820d15eaa528c7e4dee4708ca0274179"
 
   def install
     bin.install "src/slack"
