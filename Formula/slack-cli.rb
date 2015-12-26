@@ -7,7 +7,8 @@ class SlackCli < Formula
 
   def install
     bin.mkpath
-    system "make", "install", "PREFIX=#{prefix}", "CONFIG=~/.slack-cli"
+    (etc/"slack-cli").mkpath
+    system "make", "install", "PREFIX=#{prefix}", "CONFIG=#{etc}/slack-cli/.slack-cli"
   end
 
   test do
