@@ -1,11 +1,11 @@
 class SlackCli < Formula
   homepage "https://github.com/rockymadden/slack-cli"
-  url "https://github.com/rockymadden/slack-cli/archive/v0.7.0.tar.gz"
-  sha256 "6f905c36b199fc804e40a2ca548d539ed66f8917cb0b3dc575f98ef49da3ad2d"
+  url "https://github.com/rockymadden/slack-cli/archive/v0.7.1.tar.gz"
+  sha256 "7914f0498af124ef3fc87eb179b707e2957509ddd6933a0083a8073b0701a177"
 
   def install
     bin.mkpath
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}", "CONFIG=~/.slack-cli"
   end
 
   test do
