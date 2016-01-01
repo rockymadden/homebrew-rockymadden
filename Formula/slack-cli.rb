@@ -9,7 +9,7 @@ class SlackCli < Formula
   def install
     bin.mkpath
     (etc/"slack-cli").mkpath
-    system "make", "install", "bindir=#{prefix}", "etcdir=#{etc}/slack-cli"
+    system "make", "install", "bindir=#{bin}", "etcdir=#{etc}/slack-cli"
   end
 
   test do
