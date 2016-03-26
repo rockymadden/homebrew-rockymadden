@@ -1,9 +1,10 @@
 class SomafmCli < Formula
   homepage "https://github.com/rockymadden/somafm-cli"
-  url "https://github.com/rockymadden/somafm-cli/archive/v0.0.0.tar.gz"
-  sha256 "d49ade733a2dbf6d3fa5c066b58e0304076568e4c722473ffb6b4421a9e2e4c1"
+  url "https://github.com/rockymadden/somafm-cli/archive/v0.1.0.tar.gz"
+  sha256 "89beff14eed14732fdb1879a2bbf958d511f12351c02d7d23cef1fbfa54d4f6e"
 
   depends_on "coreutils"
+  depends_on "jq"
   depends_on "mpv"
 
   def install
