@@ -1,7 +1,7 @@
 class CircleciCli < Formula
   homepage "https://github.com/rockymadden/circleci-cli"
-  url "https://github.com/rockymadden/circleci-cli/archive/v0.7.0.tar.gz"
-  sha256 "6883921e2a117ce408889f16708a940689412f916920c16054fd261844ed410e"
+  url "https://github.com/rockymadden/circleci-cli/archive/v0.8.0.tar.gz"
+  sha256 "c6e2cbc680afa7413d245a63133eb89afe101624448f75915e73d4d4656d17e8"
 
   depends_on "coreutils"
   depends_on "git"
