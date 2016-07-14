@@ -1,7 +1,7 @@
 class SlackCli < Formula
   homepage "https://github.com/rockymadden/slack-cli"
-  url "https://github.com/rockymadden/slack-cli/archive/v0.12.0.tar.gz"
-  sha256 "b17da7bad2f11e980ec60bd21e4618cecfc85dc190c1c0c711233ce6c830c47b"
+  url "https://github.com/rockymadden/slack-cli/archive/v0.13.0.tar.gz"
+  sha256 "4c9bce35ee15fe08fcae65e68fcbdef6a7d7e5d49f09963c7e84c1266895d5c3"
 
   depends_on "coreutils"
   depends_on "jq"
