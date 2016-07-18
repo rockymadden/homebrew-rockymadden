@@ -1,7 +1,7 @@
 class TransferCli < Formula
   homepage "https://github.com/rockymadden/transfer-cli"
-  url "https://github.com/rockymadden/transfer-cli/archive/v0.0.0.tar.gz"
-  sha256 "3728e1fb85a4fe8e49985a90c0d2d2901f1b9d3004a2dbe5bbe1b96c401eb715"
+  url "https://github.com/rockymadden/transfer-cli/archive/v0.1.0.tar.gz"
+  sha256 "19029f7d92e08edde263afc741ea5fcbe2276a203337271245915a4042313961"
 
   depends_on "coreutils"
 
