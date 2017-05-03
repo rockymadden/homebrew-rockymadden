@@ -1,7 +1,7 @@
 class SomafmCli < Formula
   homepage "https://github.com/rockymadden/somafm-cli"
-  url "https://github.com/rockymadden/somafm-cli/archive/v0.1.0.tar.gz"
-  sha256 "89beff14eed14732fdb1879a2bbf958d511f12351c02d7d23cef1fbfa54d4f6e"
+  url "https://github.com/rockymadden/somafm-cli/archive/v0.2.0.tar.gz"
+  sha256 "d1afaabe365601ffb91e61feebcf6c63c995f2e592fbb8969abb1f6e8ec253f9"
 
   depends_on "coreutils"
   depends_on "jq"
